@@ -1,0 +1,15 @@
+ .orbit-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none; /* allows clicks through to page below */
+  }
+  .orbit-item {
+    position: absolute;
+    font-size: 32px;
+    text-align: center;
+    white-space: nowrap;
+    transform: translate(-50%, -50%);
+  }
